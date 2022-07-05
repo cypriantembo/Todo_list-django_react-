@@ -1,0 +1,38 @@
+## Clone the project to your specified location or download the zip file and unzip it.
+## Project is implemented using django rest framework (backend) and react on the frontend with an inbuilt database [sqlite]
+## The project is set up to run as a single project. which means that django will automatically start the react app
+
+### How To Run The Project###
+## requirements##
+-python 3.7 or higher
+-pip -> python package manager
+-node -> for react
+
+## After successfully downloading the project onto your machine, your folder structure will be as follows:
+-Todo_list_challenge
+  --base
+  --frontend
+  --todo_list
+  --venv
+  --db.sqlite3
+  --manage.py
+  --requirements.txt
+
+## all files except "frontend" are backend staffs i.e django rest framework and databases
+## cd into Todo_list_challenge/
+## the virtual environment should aready be their, so run the command "venv\scripts\activate" BUT if it not working then run the follow up command
+
+## create a virtual environment by running the command "python -m venv venv"
+
+## activate the virtual environment by running the command "venv\scripts\activate" [windows os]
+## install the project dependencies in the requirements.txt file by running "pip install -r requirements.txt"
+## deactivate the virtual environment by running "deactivate"
+
+
+## cd into the frontend dir, cd into Todo_list_challenge/frontend
+## install the projects dependencies by running "npm install"
+## Then run "npm run build"
+
+## go back to the root dir cd into Todo_list_challenge and reactivate the virtual environment by running the command venv\scripts\activate 
+
+## start the project by running "python manage.py runserver"
